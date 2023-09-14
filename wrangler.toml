@@ -1,0 +1,12 @@
+name = "email-routing"
+main = "src/index.ts"
+compatibility_date = "2023-09-04"
+workers_dev = true
+
+[vars]
+token = "YOUR_TOKEN"
+
+[[ d1_databases ]]
+binding = "mailAddr"
+database_name = "YOUR_DB_NAME"
+database_id = "YOUR_DB_UUID"
